@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drum_Kit</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Clipboard_tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class=" bg-gray-900 container m-auto text-white mt-8 text-2xl " >
+    <h1 class="text-center text-5xl text-blue-400 ">Clipboard</h1>
+        <div class="relative m-4 ">
+            <textarea id="message" name="message" class="w-full bg-white rounded border my-4 border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200  mt-24 ease-in-out text-2xl " placeholder="Enter text here"></textarea>
+          </div>
+
+          <button class="flex mx-auto my-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Copy to ClipBoard</button>
     <script src="./js/index.js"></script>
 </body>
 </html>
